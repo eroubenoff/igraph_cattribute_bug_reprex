@@ -3,6 +3,7 @@
 #include<string>
 #include<iostream>
 #include "BICS_ABM.h"
+using namespace std;
 
 void test_routine(igraph_t* graph) {
 

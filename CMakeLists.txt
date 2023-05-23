@@ -5,12 +5,12 @@ project(BICS_ABM)
 add_subdirectory(igraph)
 
 add_library(BICS_ABM_lib SHARED 
-    src/BICS_ABM.h 
-    src/BICS_ABM.cpp 
+    BICS_ABM.h 
+    BICS_ABM.cpp 
     )
 
 add_executable(BICS_ABM 
-    src/main.cpp 
+    main.cpp 
     )
 
 
